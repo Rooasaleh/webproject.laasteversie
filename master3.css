@@ -1,0 +1,70 @@
+/*
+  verhalen
+*/
+@media (min-width: 0em){
+img{
+    width: 10em;
+}
+.story1 {
+    background: url('./img/storyimage01.png') no-repeat top center;
+    height:380vh;
+    background-size: contain;
+    transition: opacity 0.5s ease;
+}
+.story2 {
+    background: url('./img/storyimage04.png') no-repeat top center;
+    height:380vh;
+    background-size: contain;
+    transition: opacity 0.5s ease;
+}
+.story3 {
+    background: url('./img/storyimage07.png') no-repeat top center;
+    height:380vh;
+    background-size: contain;
+    transition: opacity 0.5s ease;
+}
+}
+
+@media (min-width: 38em) {
+    
+    .story1 {
+    background: url('./img/storyimage02.png') no-repeat top center ;
+    height:380vh;
+    background-size: contain;  
+    transition: opacity 0.5s ease;
+}
+.story2 {
+    background: url('./img/storyimage05.png') no-repeat top center;
+    height:380vh;
+    background-size: contain;
+    transition: opacity 0.5s ease;
+}
+.story3 {
+    background: url('./img/storyimage08.png') no-repeat top center;
+    height:380vh;
+    background-size: contain;
+    transition: opacity 0.5s ease;
+}
+
+
+}
+@media (min-width: 65em) {
+    .story1 {
+    background: url('./img/storyimage03.png') no-repeat top center ;
+    height:380vh; 
+    background-size: contain;
+    transition: opacity 0.5s ease;
+}
+.story2 {
+    background: url('./img/storyimage06.png') no-repeat top center;
+    height:380vh;
+    background-size: contain;
+    transition: opacity 0.5s ease;
+}
+.story3 {
+    background: url('./img/storyimage09.png') no-repeat top center;
+    height:380vh;
+    background-size: contain;
+    transition: opacity 0.5s ease;
+        }
+}

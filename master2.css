@@ -1,0 +1,173 @@
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    position: relative;
+    margin: auto;
+    text-align: justify;
+    width: 20em;
+    height: 1em;
+    background-color: #C8C8C8;
+    border-radius: 3em;
+    top: -1.2em;
+    z-index: 1;
+    bottom: 0
+}
+
+section > button {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    width: 49%;
+    font-weight: 400;
+    color: #000;
+    background: none;
+    border-style: none;
+    border-bottom: solid 0.7em #C8C8C8;
+    border-radius: 2em;
+    bottom: 1em;
+    color: #696969;
+    z-index: 2;
+}
+
+section > button:frist-child {
+    border-radius: 2em;
+}
+
+section > button:first-of-type {
+    border-bottom-right-radius: 0;
+}
+
+section > button:last-of-type {
+    border-bottom-left-radius: 0;
+}
+
+fieldset {
+    border: none;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    height: 15em;
+    margin: auto;
+    width: 80%;
+}
+
+form label {
+    display: none;
+}
+
+form input {
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    max-width: 100%;
+    border: solid 0.1em #979797;
+    font-size: 0, 6em;
+    font-family: 'Muli', sans-serif;
+}
+
+form input:focus {
+    background-color: #00D66C;
+    font-family: 'Muli', sans-serif;
+    color: #fff;
+}
+
+form button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 15em;
+    bottom: 0;
+    margin: auto;
+    border-radius: 2em;
+    width: 10em;
+    background-color: #FF3268;
+    font-size: 1em;
+    height: 2.3em;
+    font-family: 'Muli', sans-serif;
+    color: #fff;
+    text-align: center;
+    border-style: none;
+    box-shadow: 0px 5px 0px -2px rgba(185, 31, 72, 0.73);
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    padding: 0.5em;
+    background-color: #F7F7F7;
+    border-top: solid 0.1em #F7F7F7;
+    bottom: 0;
+    font-family: 'Muli', sans-serif;
+    font-size: 0.7em;
+    color: #00D66C;
+    vertical-align: middle;
+}
+
+fieldset:last-of-type {
+    display: none;
+}
+
+@media (min-width: 40em) {
+    header img {
+        max-width: 100%;
+    }
+    form {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form input {
+        max-width: 80%;
+        margin: auto;
+        width: 50%;
+    }
+    form button {
+        max-width: 25em;
+    }
+}
+
+@media (min-width: 65em) {
+    header img {
+        max-width: 100%;
+    }
+    form {
+        margin: auto;
+        width: 50%;
+    }
+    form input {
+        max-width: 60%;
+        margin: auto;
+        width: 50%;
+    }
+    form button {
+        max-width: 25em;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 30em;
+        bottom: 0;
+        margin: auto;
+        border-radius: 2em
+    }
